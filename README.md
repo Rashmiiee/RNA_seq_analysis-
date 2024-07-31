@@ -7,7 +7,7 @@ Data description: Transcriptome profiles of yeast cells transformed with plasmid
 
 Data is taken from study doi: 10.3389/fonc.2022.908442
 
-Analysis guide :
+Analysis guide : https://github.com/Rashmiiee/RNA_seq_analysis-/blob/main/RNAseq%20map.pdf
 
 The version of tools and software used is stored in scripts/tools_and_versions.txt
 
