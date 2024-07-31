@@ -1,0 +1,6 @@
+output_0_Aligned.sortedByCoord.out.bam
+output_1_Aligned.sortedByCoord.out.bam
+output_2_Aligned.sortedByCoord.out.bam
+output_3_Aligned.sortedByCoord.out.bam
+output_4_Aligned.sortedByCoord.out.bam
+output_5_Aligned.sortedByCoord.out.bam

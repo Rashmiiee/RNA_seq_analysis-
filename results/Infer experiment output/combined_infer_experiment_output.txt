@@ -1,0 +1,54 @@
+Processing output_0_Aligned.sortedByCoord.out.bam
+
+
+This is PairEnd Data
+Fraction of reads failed to determine: 0.1239
+Fraction of reads explained by "1++,1--,2+-,2-+": 0.0936
+Fraction of reads explained by "1+-,1-+,2++,2--": 0.7825
+Finished processing output_0_Aligned.sortedByCoord.out.bam
+----
+Processing output_1_Aligned.sortedByCoord.out.bam
+
+
+This is PairEnd Data
+Fraction of reads failed to determine: 0.1576
+Fraction of reads explained by "1++,1--,2+-,2-+": 0.1769
+Fraction of reads explained by "1+-,1-+,2++,2--": 0.6655
+Finished processing output_1_Aligned.sortedByCoord.out.bam
+----
+Processing output_2_Aligned.sortedByCoord.out.bam
+
+
+This is PairEnd Data
+Fraction of reads failed to determine: 0.2033
+Fraction of reads explained by "1++,1--,2+-,2-+": 0.1503
+Fraction of reads explained by "1+-,1-+,2++,2--": 0.6464
+Finished processing output_2_Aligned.sortedByCoord.out.bam
+----
+Processing output_3_Aligned.sortedByCoord.out.bam
+
+
+This is PairEnd Data
+Fraction of reads failed to determine: 0.0981
+Fraction of reads explained by "1++,1--,2+-,2-+": 0.1788
+Fraction of reads explained by "1+-,1-+,2++,2--": 0.7232
+Finished processing output_3_Aligned.sortedByCoord.out.bam
+----
+Processing output_4_Aligned.sortedByCoord.out.bam
+
+
+This is PairEnd Data
+Fraction of reads failed to determine: 0.1337
+Fraction of reads explained by "1++,1--,2+-,2-+": 0.1824
+Fraction of reads explained by "1+-,1-+,2++,2--": 0.6838
+Finished processing output_4_Aligned.sortedByCoord.out.bam
+----
+Processing output_5_Aligned.sortedByCoord.out.bam
+
+
+This is PairEnd Data
+Fraction of reads failed to determine: 0.1236
+Fraction of reads explained by "1++,1--,2+-,2-+": 0.0842
+Fraction of reads explained by "1+-,1-+,2++,2--": 0.7922
+Finished processing output_5_Aligned.sortedByCoord.out.bam
+----

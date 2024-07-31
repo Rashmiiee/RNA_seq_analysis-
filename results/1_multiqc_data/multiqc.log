@@ -1,0 +1,5 @@
+[2024-06-13 09:32:09,846] multiqc.core.file_search                           [INFO   ]  Search path: /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/1_fastqc
+[2024-06-13 09:32:10,035] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 12 reports
+[2024-06-13 09:32:10,162] multiqc.core.write_results                         [INFO   ]  Data        : multiqc_data
+[2024-06-13 09:32:10,270] multiqc.core.write_results                         [INFO   ]  Report      : multiqc_report.html
+[2024-06-13 09:32:10,272] multiqc.multiqc                                    [INFO   ]  MultiQC complete

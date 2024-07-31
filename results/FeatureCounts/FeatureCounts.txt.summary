@@ -1,0 +1,15 @@
+Status	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/fastq/res_trimmomatic/fastp_results/fastas/alignments/output_0_Aligned.sortedByCoord.out.bam	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/fastq/res_trimmomatic/fastp_results/fastas/alignments/output_1_Aligned.sortedByCoord.out.bam	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/fastq/res_trimmomatic/fastp_results/fastas/alignments/output_2_Aligned.sortedByCoord.out.bam	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/fastq/res_trimmomatic/fastp_results/fastas/alignments/output_3_Aligned.sortedByCoord.out.bam	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/fastq/res_trimmomatic/fastp_results/fastas/alignments/output_4_Aligned.sortedByCoord.out.bam	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/fastq/res_trimmomatic/fastp_results/fastas/alignments/output_5_Aligned.sortedByCoord.out.bam
+Assigned	12269794	15751683	11430698	7679025	8424158	8901168
+Unassigned_Unmapped	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	1616268	2044846	1487758	944624	1152496	1169398
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	926199	1170902	753662	546720	591874	626266
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	331135	443930	336630	210826	245891	238154

@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	fastp_SRR18396493_R2	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396493_R2_fastqc.zip
+FastQC	all_sections	fastp_SRR18396495_R1	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396495_R1_fastqc.zip
+FastQC	all_sections	fastp_SRR18396494_R2	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396494_R2_fastqc.zip
+FastQC	all_sections	fastp_SRR18396491_R1	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396491_R1_fastqc.zip
+FastQC	all_sections	fastp_SRR18396512_R1	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396512_R1_fastqc.zip
+FastQC	all_sections	fastp_SRR18396500_R2	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396500_R2_fastqc.zip
+FastQC	all_sections	fastp_SRR18396500_R1	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396500_R1_fastqc.zip
+FastQC	all_sections	fastp_SRR18396512_R2	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396512_R2_fastqc.zip
+FastQC	all_sections	fastp_SRR18396491_R2	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396491_R2_fastqc.zip
+FastQC	all_sections	fastp_SRR18396495_R2	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396495_R2_fastqc.zip
+FastQC	all_sections	fastp_SRR18396494_R1	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396494_R1_fastqc.zip
+FastQC	all_sections	fastp_SRR18396493_R1	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/results/2_fastqc/fastp_SRR18396493_R1_fastqc.zip

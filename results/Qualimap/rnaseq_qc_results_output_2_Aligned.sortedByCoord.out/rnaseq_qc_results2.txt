@@ -1,0 +1,56 @@
+RNA-Seq QC report
+-----------------------------------
+
+>>>>>>> Input
+
+    bam file = output_2_Aligned.sortedByCoord.out.bam
+    gff file = real_yeast.gtf
+    counting algorithm = uniquely-mapped-reads
+    protocol = non-strand-specific
+    5'-3' bias region size = 100
+    5'-3' bias number of top transcripts = 1000
+
+
+>>>>>>> Reads alignment
+
+    reads aligned  = 12,951,878
+    total alignments = 14,008,748
+    secondary alignments = 1,056,870
+    non-unique alignments = 1,487,758
+    aligned to genes  = 10,781,094
+    ambiguous alignments = 222,947
+    no feature assigned = 1,516,949
+    not aligned = 0
+    SSP estimation (fwd/rev) = 0.22 / 0.78
+
+
+>>>>>>> Reads genomic origin
+
+    exonic =  10,781,094 (87.67%)
+    intronic = 28,345 (0.23%)
+    intergenic = 1,488,604 (12.1%)
+    overlapping exon = 863,471 (7.02%)
+
+
+>>>>>>> Transcript coverage profile
+
+    5' bias = 0.67
+    3' bias = 0.43
+    5'-3' bias = 1.62
+
+
+>>>>>>> Junction analysis
+
+    reads at junctions = 21,727
+
+    TTAG : 13.16%
+    CTCT : 11.27%
+    TATT : 6.94%
+    AGAA : 3.23%
+    CAGT : 2.34%
+    ATAT : 1.95%
+    ATAC : 1.84%
+    TGTT : 1.78%
+    TAGC : 1.75%
+    AAAA : 1.58%
+    ATTT : 1.57%

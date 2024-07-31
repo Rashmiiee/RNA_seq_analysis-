@@ -1,0 +1,91 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fswiss\fcharset0 Arial-BoldMT;\f2\fnil\fcharset0 HelveticaNeue;
+\f3\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red69\green97\blue111;\red240\green244\blue249;\red0\green0\blue0;
+\red240\green244\blue249;\red25\green25\blue25;\red255\green255\blue255;\red26\green64\blue128;\red0\green0\blue0;
+}
+{\*\expandedcolortbl;;\cssrgb\c33725\c45490\c50980;\cssrgb\c95294\c96471\c98039;\cssrgb\c0\c1\c1;
+\cssrgb\c95410\c96589\c98038;\cssrgb\c12941\c12941\c12941;\cssrgb\c100000\c100000\c100000;\cssrgb\c12549\c32941\c57647;\csgray\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh14900\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+
+\f1\b\fs28 \cf4 \cb5 12th Jun 2024\
+\
+An end -to-end RNAseq data analysis template for Differential Gene Expression analysis.\
+\
+Data description: Transcriptome profiles of yeast cells transformed with plasmid containing BRCA2 gene and Yeast cells transformed with a control plasmid (pYes) lacking the BRCA2 gene.\
+\
+Data is taken from study doi:
+\f2\b0\fs32 \cf6 \cb7 \'a0{\field{\*\fldinst{HYPERLINK "https://doi.org/10.3389%2Ffonc.2022.908442"}}{\fldrslt \cf8 \ul \ulc8 10.3389/fonc.2022.908442}}
+\f1\b\fs28 \cf4 \cb5 \
+\
+Analysis guide :\
+\
+The version of tools and software used is stored in scripts/tools_and_versions.txt\
+\
+*fastq files are not present in folder and need to be downloaded using steps from the analysis scripts and file paths need to be changed accordingly in the scripts\
+\
+\
+RNA seq analysis
+\f0\b0\fs24 \cf2 \cb3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\fs28 \cf9 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural\partightenfactor0
+
+\fs30 \uc0\u9500 \u9472 \u9472  README.txt.rtf\
+\uc0\u9500 \u9472 \u9472  logs\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  STAR_index_ReferenceGenomeLog.out\
+\uc0\u9474 \'a0\'a0 \u9492 \u9472 \u9472  index rel\
+\uc0\u9500 \u9472 \u9472  meta\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  DataSheet_1_supplementary.docx\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  FastQC_interpretation.pdf\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  Illumina Adapter sequences.pdf\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  Image from supplementary 2.TIF\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  Image from supplementary 3.TIF\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  Quality control Reference.pdf\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  STARmanual.pdf\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  adjust_for_covariates\
+\uc0\u9474 \'a0\'a0 \u9492 \u9472 \u9472  supplementary material GO.xlsx\
+\uc0\u9500 \u9472 \u9472  raw_data\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  S288C_reference_genome_R64-5-1_20240529\
+\uc0\u9474 \'a0\'a0 \u9492 \u9472 \u9472  fastq\
+\uc0\u9500 \u9472 \u9472  results\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  1_fastqc\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  1_multiqc_data\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  2_fastqc\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  2_multiqc_data\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  3_fastp_res\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  4_corrected_fastqc\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  5_uncorrected_fastqc\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  DEseq2\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  FeatureCounts\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  GeneBodyCoverage output\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  Infer experiment output\
+\uc0\u9474 \'a0\'a0 \u9492 \u9472 \u9472  Qualimap\
+\uc0\u9492 \u9472 \u9472  scripts\
+    \uc0\u9500 \u9472 \u9472  DESeq2.R\
+    \uc0\u9500 \u9472 \u9472  Power_analysis_real_data.R\
+    \uc0\u9500 \u9472 \u9472  Power_analysis_simulated_data.R\
+    \uc0\u9500 \u9472 \u9472  all_samples.sh\
+    \uc0\u9500 \u9472 \u9472  batch_FeatureCounts.sh\
+    \uc0\u9500 \u9472 \u9472  batch_fastqc.sh\
+    \uc0\u9500 \u9472 \u9472  batch_qualimap.sh\
+    \uc0\u9500 \u9472 \u9472  batch_trimmomatic.py\
+    \uc0\u9500 \u9472 \u9472  batch_trimmomatic2.py\
+    \uc0\u9500 \u9472 \u9472  check_countdata.R\
+    \uc0\u9500 \u9472 \u9472  create_ubams.sh\
+    \uc0\u9500 \u9472 \u9472  cut_adapt.sh\
+    \uc0\u9500 \u9472 \u9472  download_fastqs.sh\
+    \uc0\u9500 \u9472 \u9472  get_adapters.sh\
+    \uc0\u9500 \u9472 \u9472  get_bam_index.sh\
+    \uc0\u9500 \u9472 \u9472  matic_to_fastp.R\
+    \uc0\u9500 \u9472 \u9472  matic_to_fastp2.R\
+    \uc0\u9500 \u9472 \u9472  run_infer_experiment.sh\
+    \uc0\u9500 \u9472 \u9472  run_star_alignment.sh\
+    \uc0\u9492 \u9472 \u9472  tools_and_versions.txt}

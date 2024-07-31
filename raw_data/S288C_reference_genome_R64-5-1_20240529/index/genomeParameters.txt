@@ -1,0 +1,19 @@
+### /Applications/software_bioinformatics/STAR/bin/MacOSX_x86_64/STAR   --runMode genomeGenerate      --runThreadN 4   --genomeDir /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index   --genomeFastaFiles /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa      --genomeSAindexNbases 10   --sjdbGTFfile /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/yeast.gtf
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa 
+genomeSAindexNbases	10
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	100
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/yeast.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	14698154 100444620

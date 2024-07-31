@@ -1,0 +1,165 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir= :/Users/distiller/project/STARcompile/source
+STAR git: On branch master ; commit 73eaeb256684a2fc31ce306a95bbd27120dd8de4 ; diff files: 
+##### Command Line:
+/Applications/software_bioinformatics/STAR/bin/MacOSX_x86_64/STAR --runThreadN 4 --runMode genomeGenerate --genomeDir . --genomeFastaFiles ref_genome.fa --sjdbGTFfile yeast.gtf
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    4     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     .     ~RE-DEFINED
+genomeFastaFiles              ref_genome.fa        ~RE-DEFINED
+sjdbGTFfile                   yeast.gtf     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        4
+genomeDir                         .
+genomeFastaFiles                  ref_genome.fa   
+sjdbGTFfile                       yeast.gtf
+
+-------------------------------
+##### Final effective command line:
+/Applications/software_bioinformatics/STAR/bin/MacOSX_x86_64/STAR   --runMode genomeGenerate      --runThreadN 4   --genomeDir .   --genomeFastaFiles ref_genome.fa      --sjdbGTFfile yeast.gtf
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: ./
+Jun 16 09:24:09 ... starting to generate Genome files
+ref_genome.fa : chr # 0  "chrI" chrStart: 0
+ref_genome.fa : chr # 1  "chrII" chrStart: 262144
+ref_genome.fa : chr # 2  "chrIII" chrStart: 1310720
+ref_genome.fa : chr # 3  "chrIV" chrStart: 1835008
+ref_genome.fa : chr # 4  "chrIX" chrStart: 3407872
+ref_genome.fa : chr # 5  "chrV" chrStart: 3932160
+ref_genome.fa : chr # 6  "chrVI" chrStart: 4718592
+ref_genome.fa : chr # 7  "chrVII" chrStart: 5242880
+ref_genome.fa : chr # 8  "chrVIII" chrStart: 6553600
+ref_genome.fa : chr # 9  "chrX" chrStart: 7340032
+ref_genome.fa : chr # 10  "chrXI" chrStart: 8126464
+ref_genome.fa : chr # 11  "chrXII" chrStart: 8912896
+ref_genome.fa : chr # 12  "chrXIII" chrStart: 10223616
+ref_genome.fa : chr # 13  "chrXIV" chrStart: 11272192
+ref_genome.fa : chr # 14  "chrXV" chrStart: 12058624
+ref_genome.fa : chr # 15  "chrXVI" chrStart: 13369344
+Chromosome sequence lengths: 
+chrI	230218
+chrII	813184
+chrIII	316620
+chrIV	1531933
+chrIX	439888
+chrV	576874
+chrVI	270161
+chrVII	1090940
+chrVIII	562643
+chrX	745751
+chrXI	666816
+chrXII	1078177
+chrXIII	924431
+chrXIV	784333
+chrXV	1091291
+chrXVI	948066
+Genome sequence total length = 12071326
+Genome size with padding = 14417920
+Jun 16 09:24:09 ..... processing annotations GTF
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	731	802	.	+	.	transcript_id "YNCQ0001W_tRNA"; gene_id "YNCQ0001W"; gene_name "YNCQ0001W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	6546	8194	.	+	.	transcript_id "YNCQ0002W_rRNA"; gene_id "YNCQ0002W"; gene_name "15S_RRNA";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	9374	9447	.	+	.	transcript_id "YNCQ0003W_tRNA"; gene_id "YNCQ0003W"; gene_name "YNCQ0003W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	35373	35444	.	+	.	transcript_id "YNCQ0004W_tRNA"; gene_id "YNCQ0004W"; gene_name "YNCQ0004W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	48201	48290	.	+	.	transcript_id "YNCQ0005W_tRNA"; gene_id "YNCQ0005W"; gene_name "YNCQ0005W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	58009	60724	.	+	.	transcript_id "YNCQ0006W_rRNA"; gene_id "YNCQ0006W"; gene_name "21S_RRNA";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	61868	62447	.	+	.	transcript_id "YNCQ0006W_rRNA"; gene_id "YNCQ0006W"; gene_name "21S_RRNA";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	63862	63937	.	+	.	transcript_id "YNCQ0007W_tRNA"; gene_id "YNCQ0007W"; gene_name "YNCQ0007W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	64415	64490	.	+	.	transcript_id "YNCQ0008W_tRNA"; gene_id "YNCQ0008W"; gene_name "YNCQ0008W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	64596	64670	.	+	.	transcript_id "YNCQ0009W_tRNA"; gene_id "YNCQ0009W"; gene_name "YNCQ0009W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	66095	66179	.	+	.	transcript_id "YNCQ0010W_tRNA"; gene_id "YNCQ0010W"; gene_name "YNCQ0010W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	66210	66285	.	+	.	transcript_id "YNCQ0011W_tRNA"; gene_id "YNCQ0011W"; gene_name "YNCQ0011W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	67061	67134	.	+	.	transcript_id "YNCQ0012W_tRNA"; gene_id "YNCQ0012W"; gene_name "YNCQ0012W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	67309	67381	.	+	.	transcript_id "YNCQ0013W_tRNA"; gene_id "YNCQ0013W"; gene_name "YNCQ0013W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	67468	67542	.	+	.	transcript_id "YNCQ0014W_tRNA"; gene_id "YNCQ0014W"; gene_name "YNCQ0014W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	68322	68396	.	+	.	transcript_id "YNCQ0015W_tRNA"; gene_id "YNCQ0015W"; gene_name "YNCQ0015W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	69203	69288	.	+	.	transcript_id "YNCQ0016W_tRNA"; gene_id "YNCQ0016W"; gene_name "YNCQ0016W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	69289	69362	.	+	.	transcript_id "YNCQ0017W_tRNA"; gene_id "YNCQ0017W"; gene_name "YNCQ0017W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	69846	69921	.	+	.	transcript_id "YNCQ0018W_tRNA"; gene_id "YNCQ0018W"; gene_name "YNCQ0018W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	70162	70237	.	+	.	transcript_id "YNCQ0019W_tRNA"; gene_id "YNCQ0019W"; gene_name "YNCQ0019W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	70824	70907	.	+	.	transcript_id "YNCQ0020W_tRNA"; gene_id "YNCQ0020W"; gene_name "YNCQ0020W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	71433	71503	.	+	.	transcript_id "YNCQ0021W_tRNA"; gene_id "YNCQ0021W"; gene_name "YNCQ0021W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	72630	72705	.	+	.	transcript_id "YNCQ0022W_tRNA"; gene_id "YNCQ0022W"; gene_name "YNCQ0022W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	77431	77505	.	+	.	transcript_id "YNCQ0023W_tRNA"; gene_id "YNCQ0023W"; gene_name "YNCQ0023W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	78089	78162	.	-	.	transcript_id "YNCQ0024C_tRNA"; gene_id "YNCQ0024C"; gene_name "YNCQ0024C";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	78533	78608	.	+	.	transcript_id "YNCQ0025W_tRNA"; gene_id "YNCQ0025W"; gene_name "YNCQ0025W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	85035	85112	.	+	.	transcript_id "YNCQ0026W_tRNA"; gene_id "YNCQ0026W"; gene_name "YNCQ0026W";
+WARNING: while processing sjdbGTFfile=yeast.gtf: chromosome 'chrmt' not found in Genome fasta files for line:
+chrmt	SGD	exon	85295	85777	.	+	.	transcript_id "YNCQ0027W_ncRNA"; gene_id "YNCQ0027W"; gene_name "RPM1";
+Processing pGe.sjdbGTFfile=yeast.gtf, found:
+		427 transcripts
+		516 exons (non-collapsed)
+		89 collapsed junctions
+Total junctions: 89
+Jun 16 09:24:09 ..... finished GTF processing
+
+!!!!! WARNING: --genomeSAindexNbases 14 is too large for the genome size=12071326, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 10
+Estimated genome size with padding and SJs: total=genome+SJ=215417920 = 14417920 + 201000000
+GstrandBit=32
+Number of SA indices: 24142652
+Jun 16 09:24:10 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 4;   chunks size limit: 64380400 bytes
+Jun 16 09:24:10 ... sorting Suffix Array chunks and saving them to disk...
+Writing 2837944 bytes into .//SA_3 ; empty space on disk = 38930721275904 bytes ... done
+Writing 62301496 bytes into .//SA_2 ; empty space on disk = 38929961058304 bytes ... done
+Writing 64062264 bytes into .//SA_0 ; empty space on disk = 38914011168768 bytes ... done
+Writing 63939512 bytes into .//SA_1 ; empty space on disk = 38897610391552 bytes ... done
+Jun 16 09:24:12 ... loading chunks from disk, packing SA...
+Jun 16 09:24:12 ... finished generating suffix array
+Jun 16 09:24:12 ... generating Suffix Array index
+Jun 16 09:24:17 ... completed Suffix Array index
+Jun 16 09:24:17   Finished preparing junctions
+Jun 16 09:24:17 ..... inserting junctions into the genome indices
+Jun 16 09:24:17   Finished SA search: number of new junctions=89, old junctions=0
+Jun 16 09:24:17   Finished sorting SA indicesL nInd=35600
+Genome size with junctions=14435809  14417920   17889
+GstrandBit1=32   GstrandBit=32
+Jun 16 09:24:17   Finished inserting junction indices
+Jun 16 09:24:23   Finished SAi
+Jun 16 09:24:23 ..... finished inserting junctions into genome
+Jun 16 09:24:23 ... writing Genome to disk ...
+Writing 14435809 bytes into .//Genome ; empty space on disk = 38655807717376 bytes ... done
+SA size in bytes: 99735293
+Jun 16 09:24:23 ... writing Suffix Array to disk ...
+Writing 99735293 bytes into .//SA ; empty space on disk = 38652111486976 bytes ... done
+Jun 16 09:24:23 ... writing SAindex to disk
+Writing 8 bytes into .//SAindex ; empty space on disk = 38626578661376 bytes ... done
+Writing 120 bytes into .//SAindex ; empty space on disk = 38626578661376 bytes ... done
+Writing 1565873491 bytes into .//SAindex ; empty space on disk = 38626578661376 bytes ... done
+Jun 16 09:24:23 ..... finished successfully
+DONE: Genome generation, EXITING

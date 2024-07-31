@@ -1,0 +1,112 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir= :/Users/distiller/project/STARcompile/source
+STAR git: On branch master ; commit 73eaeb256684a2fc31ce306a95bbd27120dd8de4 ; diff files: 
+##### Command Line:
+/Applications/software_bioinformatics/STAR/bin/MacOSX_x86_64/STAR --runThreadN 4 --runMode genomeGenerate --genomeSAindexNbases 10 --genomeDir /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index --genomeFastaFiles /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa --sjdbGTFfile /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/yeast.gtf
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    4     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeSAindexNbases           10     ~RE-DEFINED
+genomeDir                     /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index     ~RE-DEFINED
+genomeFastaFiles              /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa        ~RE-DEFINED
+sjdbGTFfile                   /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/yeast.gtf     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        4
+genomeDir                         /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index
+genomeFastaFiles                  /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa   
+genomeSAindexNbases               10
+sjdbGTFfile                       /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/yeast.gtf
+
+-------------------------------
+##### Final effective command line:
+/Applications/software_bioinformatics/STAR/bin/MacOSX_x86_64/STAR   --runMode genomeGenerate      --runThreadN 4   --genomeDir /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index   --genomeFastaFiles /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa      --genomeSAindexNbases 10   --sjdbGTFfile /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/yeast.gtf
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory created: /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index/
+Jun 16 19:20:40 ... starting to generate Genome files
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 0  "chrI" chrStart: 0
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 1  "chrII" chrStart: 262144
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 2  "chrIII" chrStart: 1310720
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 3  "chrIV" chrStart: 1835008
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 4  "chrIX" chrStart: 3407872
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 5  "chrmt" chrStart: 3932160
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 6  "chrV" chrStart: 4194304
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 7  "chrVI" chrStart: 4980736
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 8  "chrVII" chrStart: 5505024
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 9  "chrVIII" chrStart: 6815744
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 10  "chrX" chrStart: 7602176
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 11  "chrXI" chrStart: 8388608
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 12  "chrXII" chrStart: 9175040
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 13  "chrXIII" chrStart: 10485760
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 14  "chrXIV" chrStart: 11534336
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 15  "chrXV" chrStart: 12320768
+/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/ref_genome.fa : chr # 16  "chrXVI" chrStart: 13631488
+Chromosome sequence lengths: 
+chrI	230218
+chrII	813184
+chrIII	316620
+chrIV	1531933
+chrIX	439888
+chrmt	85779
+chrV	576874
+chrVI	270161
+chrVII	1090940
+chrVIII	562643
+chrX	745751
+chrXI	666816
+chrXII	1078177
+chrXIII	924431
+chrXIV	784333
+chrXV	1091291
+chrXVI	948066
+Genome sequence total length = 12157105
+Genome size with padding = 14680064
+Jun 16 19:20:40 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=/Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/yeast.gtf, found:
+		454 transcripts
+		544 exons (non-collapsed)
+		90 collapsed junctions
+Total junctions: 90
+Jun 16 19:20:40 ..... finished GTF processing
+
+Estimated genome size with padding and SJs: total=genome+SJ=215680064 = 14680064 + 201000000
+GstrandBit=32
+Number of SA indices: 24314210
+Jun 16 19:20:40 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 4;   chunks size limit: 64837888 bytes
+Jun 16 19:20:40 ... sorting Suffix Array chunks and saving them to disk...
+Writing 2865728 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//SA_3 ; empty space on disk = 35692080005120 bytes ... done
+Writing 62236096 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//SA_2 ; empty space on disk = 35691327127552 bytes ... done
+Writing 64641136 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//SA_0 ; empty space on disk = 35675394015232 bytes ... done
+Writing 64770720 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//SA_1 ; empty space on disk = 35658845388800 bytes ... done
+Jun 16 19:20:43 ... loading chunks from disk, packing SA...
+Jun 16 19:20:43 ... finished generating suffix array
+Jun 16 19:20:43 ... generating Suffix Array index
+Jun 16 19:20:44 ... completed Suffix Array index
+Jun 16 19:20:44   Finished preparing junctions
+Jun 16 19:20:44 ..... inserting junctions into the genome indices
+Jun 16 19:20:44   Finished SA search: number of new junctions=90, old junctions=0
+Jun 16 19:20:44   Finished sorting SA indicesL nInd=36000
+Genome size with junctions=14698154  14680064   18090
+GstrandBit1=32   GstrandBit=32
+Jun 16 19:20:44   Finished inserting junction indices
+Jun 16 19:20:44   Finished SAi
+Jun 16 19:20:44 ..... finished inserting junctions into genome
+Jun 16 19:20:44 ... writing Genome to disk ...
+Writing 14698154 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//Genome ; empty space on disk = 35692055887872 bytes ... done
+SA size in bytes: 100444620
+Jun 16 19:20:44 ... writing Suffix Array to disk ...
+Writing 100444620 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//SA ; empty space on disk = 35688292548608 bytes ... done
+Jun 16 19:20:44 ... writing SAindex to disk
+Writing 8 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//SAindex ; empty space on disk = 35662578319360 bytes ... done
+Writing 88 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//SAindex ; empty space on disk = 35662578319360 bytes ... done
+Writing 6116691 bytes into /Users/rashmirao/Documents/Sidra_Externship/RNAseq/RNA_seq_analysis/raw_data/S288C_reference_genome_R64-5-1_20240529/index//SAindex ; empty space on disk = 35662578319360 bytes ... done
+Jun 16 19:20:44 ..... finished successfully
+DONE: Genome generation, EXITING

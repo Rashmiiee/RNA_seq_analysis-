@@ -1,0 +1,111 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir= :/Users/distiller/project/STARcompile/source
+STAR git: On branch master ; commit 73eaeb256684a2fc31ce306a95bbd27120dd8de4 ; diff files: 
+##### Command Line:
+/Applications/software_bioinformatics/STAR/bin/MacOSX_x86_64/STAR --runThreadN 4 --runMode genomeGenerate --genomeDir . --genomeFastaFiles ref_genome.fa --sjdbGTFfile yeast.gtf
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    4     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     .     ~RE-DEFINED
+genomeFastaFiles              ref_genome.fa        ~RE-DEFINED
+sjdbGTFfile                   yeast.gtf     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        4
+genomeDir                         .
+genomeFastaFiles                  ref_genome.fa   
+sjdbGTFfile                       yeast.gtf
+
+-------------------------------
+##### Final effective command line:
+/Applications/software_bioinformatics/STAR/bin/MacOSX_x86_64/STAR   --runMode genomeGenerate      --runThreadN 4   --genomeDir .   --genomeFastaFiles ref_genome.fa      --sjdbGTFfile yeast.gtf
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: ./
+Jun 16 09:58:59 ... starting to generate Genome files
+ref_genome.fa : chr # 0  "chrI" chrStart: 0
+ref_genome.fa : chr # 1  "chrII" chrStart: 262144
+ref_genome.fa : chr # 2  "chrIII" chrStart: 1310720
+ref_genome.fa : chr # 3  "chrIV" chrStart: 1835008
+ref_genome.fa : chr # 4  "chrIX" chrStart: 3407872
+ref_genome.fa : chr # 5  "chrmt" chrStart: 3932160
+ref_genome.fa : chr # 6  "chrV" chrStart: 4194304
+ref_genome.fa : chr # 7  "chrVI" chrStart: 4980736
+ref_genome.fa : chr # 8  "chrVII" chrStart: 5505024
+ref_genome.fa : chr # 9  "chrVIII" chrStart: 6815744
+ref_genome.fa : chr # 10  "chrX" chrStart: 7602176
+ref_genome.fa : chr # 11  "chrXI" chrStart: 8388608
+ref_genome.fa : chr # 12  "chrXII" chrStart: 9175040
+ref_genome.fa : chr # 13  "chrXIII" chrStart: 10485760
+ref_genome.fa : chr # 14  "chrXIV" chrStart: 11534336
+ref_genome.fa : chr # 15  "chrXV" chrStart: 12320768
+ref_genome.fa : chr # 16  "chrXVI" chrStart: 13631488
+Chromosome sequence lengths: 
+chrI	230218
+chrII	813184
+chrIII	316620
+chrIV	1531933
+chrIX	439888
+chrmt	85779
+chrV	576874
+chrVI	270161
+chrVII	1090940
+chrVIII	562643
+chrX	745751
+chrXI	666816
+chrXII	1078177
+chrXIII	924431
+chrXIV	784333
+chrXV	1091291
+chrXVI	948066
+Genome sequence total length = 12157105
+Genome size with padding = 14680064
+Jun 16 09:59:00 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=yeast.gtf, found:
+		454 transcripts
+		544 exons (non-collapsed)
+		90 collapsed junctions
+Total junctions: 90
+Jun 16 09:59:00 ..... finished GTF processing
+
+!!!!! WARNING: --genomeSAindexNbases 14 is too large for the genome size=12157105, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 10
+Estimated genome size with padding and SJs: total=genome+SJ=215680064 = 14680064 + 201000000
+GstrandBit=32
+Number of SA indices: 24314210
+Jun 16 09:59:00 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 4;   chunks size limit: 64837888 bytes
+Jun 16 09:59:00 ... sorting Suffix Array chunks and saving them to disk...
+Writing 2865728 bytes into .//SA_3 ; empty space on disk = 37344044384256 bytes ... done
+Writing 62236096 bytes into .//SA_2 ; empty space on disk = 37343290458112 bytes ... done
+Writing 64641136 bytes into .//SA_0 ; empty space on disk = 37327357345792 bytes ... done
+Writing 64770720 bytes into .//SA_1 ; empty space on disk = 37310808719360 bytes ... done
+Jun 16 09:59:03 ... loading chunks from disk, packing SA...
+Jun 16 09:59:03 ... finished generating suffix array
+Jun 16 09:59:03 ... generating Suffix Array index
+Jun 16 09:59:07 ... completed Suffix Array index
+Jun 16 09:59:07   Finished preparing junctions
+Jun 16 09:59:07 ..... inserting junctions into the genome indices
+Jun 16 09:59:07   Finished SA search: number of new junctions=90, old junctions=0
+Jun 16 09:59:07   Finished sorting SA indicesL nInd=36000
+Genome size with junctions=14698154  14680064   18090
+GstrandBit1=32   GstrandBit=32
+Jun 16 09:59:08   Finished inserting junction indices
+Jun 16 09:59:13   Finished SAi
+Jun 16 09:59:13 ..... finished inserting junctions into genome
+Jun 16 09:59:13 ... writing Genome to disk ...
+Writing 14698154 bytes into .//Genome ; empty space on disk = 37338601226240 bytes ... done
+SA size in bytes: 100444620
+Jun 16 09:59:13 ... writing Suffix Array to disk ...
+Writing 100444620 bytes into .//SA ; empty space on disk = 37334837886976 bytes ... done
+Jun 16 09:59:13 ... writing SAindex to disk
+Writing 8 bytes into .//SAindex ; empty space on disk = 37309123657728 bytes ... done
+Writing 120 bytes into .//SAindex ; empty space on disk = 37309123657728 bytes ... done
+Writing 1565873491 bytes into .//SAindex ; empty space on disk = 37309123657728 bytes ... done
+Jun 16 09:59:14 ..... finished successfully
+DONE: Genome generation, EXITING
