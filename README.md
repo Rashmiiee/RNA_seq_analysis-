@@ -13,6 +13,7 @@ The version of tools and software used is stored in scripts/tools_and_versions.t
 
 *fastq files are not present in folder and need to be downloaded using steps from the analysis scripts and file paths need to be changed accordingly in the scripts.
 
+For queries, email - rashmirao962@gmail.com
 
 RNA seq analysis folders
 
@@ -68,4 +69,3 @@ RNA seq analysis folders
     ├── run_star_alignment.sh
     └── tools_and_versions.txt
 
-    For queries, email - rashmirao962@gmail.com
