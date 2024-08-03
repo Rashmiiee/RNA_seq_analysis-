@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR183/093/SRR18396493/SRR18396493_2.fastq.gz
 wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR183/000/SRR18396500/SRR18396500_2.fastq.gz
 wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR183/095/SRR18396495/SRR18396495_1.fastq.gz
