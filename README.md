@@ -16,8 +16,9 @@ The version of tools and software used is stored in scripts/tools_and_versions.t
 For queries, email - rashmirao962@gmail.com
 
 RNA seq analysis folders
-
-├── README.txt
+.
+├── README.txt.rtf
+├── RNAseq map.pdf
 ├── logs
 │   ├── STAR_index_ReferenceGenomeLog.out
 │   └── index rel
@@ -64,6 +65,10 @@ RNA seq analysis folders
     ├── get_adapters.sh
     ├── get_bam_index.sh
     ├── matic_to_fastp.R
+    ├── matic_to_fastp2.R
+    ├── run_infer_experiment.sh
+    ├── run_star_alignment.sh
+    └── tools_and_versions.txt
     ├── matic_to_fastp2.R
     ├── run_infer_experiment.sh
     ├── run_star_alignment.sh
